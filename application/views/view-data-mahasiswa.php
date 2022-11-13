@@ -64,7 +64,7 @@
                 <td>Jenis</td>
                 <td>:</td>
                 <td>
-                    <?= $Jenis; ?>
+                    <?= $jenis; ?>
                 </td>
             </tr>
             <tr>

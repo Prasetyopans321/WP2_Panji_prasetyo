@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Form Input Mahasiswa</title>
+    <title>Form Input siswa</title>
 </head>
 
 <body>
@@ -10,7 +10,7 @@
             <table>
                 <tr>
                     <th colspan="3">
-                        Form Input Data Mahasiswa
+                        Form Input Data siswa
                     </th>
                 </tr>
                 <tr>
@@ -19,7 +19,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <th>Nama MHS</th>
+                    <th>Nama Siswa</th>
                     <td>:</th>
                     <td>
                         <input type="text" name="nama" id="nama" placeholder="Masukan Nama..">

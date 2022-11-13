@@ -1,5 +1,5 @@
 <?php
-class Mahasiswa extends CI_Controller
+class mahasiswa extends CI_Controller
 {
     public function index()
     {
@@ -12,15 +12,15 @@ class Mahasiswa extends CI_Controller
             'nama mahasiswa',
             'required|min_length[3]',
             [
-                'required' => 'nama mahasiswa Harus diisi',
+                'required' => 'nama siswa Harus diisi',
             ]
         );
         $this->form_validation->set_rules(
             'NIM',
-            'NIM mahasiswa',
+            'NIM siswa',
             'required|min_length[3]',
             [
-                'required' => 'NIS mahasiswa Harus diisi',
+                'required' => 'NIS siswa Harus diisi',
             ]
         );
         $this->form_validation->set_rules(
@@ -48,7 +48,7 @@ class Mahasiswa extends CI_Controller
             ]
         );
         if ($this->form_validation->run() != true) {
-            $this->load->view('view-form-mahasiswa');
+            $this->load->view('view-form-siswa');
         } else {
             $data = [
                 'nama' => $this->input->post('nama'),
